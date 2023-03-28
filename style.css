@@ -17,3 +17,27 @@ body {
     border-bottom: 5px solid var(--border-nav-color);
     background-color: var(--background-nav-color);
 }
+
+.white-square {
+    position: absolute;
+    width: 80%;
+    height: 60%;
+    background-color: white;
+    filter: brightness(150%);
+    opacity: 0.15;
+    top: 20%;
+    left: 10%;
+}
+
+.w-100 {
+    position: relative;
+    border-radius: 10px;
+}
+
+#main-background {
+    max-width: 80%;
+    max-height: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
