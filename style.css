@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-main-color);
+
+}
+
+:root {
+    --border-nav-color: #FFEAD5;
+    --background-nav-color: white;
+    --background-main-color: beige;
+}
+
+#main-nav {
+    display: flex;
+    justify-content: center;
+    border-bottom: 5px solid var(--border-nav-color);
+    background-color: var(--background-nav-color);
+}
